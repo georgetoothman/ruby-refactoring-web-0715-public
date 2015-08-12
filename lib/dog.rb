@@ -34,6 +34,12 @@ class Dog
     self.walking = true
   end
 
+  #predicate method - genuinely true or false
+  #this is false by default
+  def walking?
+    !!@walking
+  end
+
   # moved to owner
 
   # def walking?(owner)

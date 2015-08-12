@@ -11,7 +11,6 @@ class Owner
     prepare_items
   end
 
-
   def prepare_items
     dog.get_ready
     dog.leash = true
